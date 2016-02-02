@@ -38,10 +38,15 @@
     "ember-try": "~0.0.8"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin-pack"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "ember-cli-babel": "^5.1.5",
+    "ember-cli-deploy-build": "0.1.0",
+    "ember-cli-deploy-cloudfiles": "0.1.0",
+    "ember-cli-deploy-postgres": "0.0.3",
+    "ember-cli-deploy-revision-data": "0.1.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
